@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
   QWebFrame* mainFrame = ui->webView->page()->mainFrame();
 
   //QString applicationDirPath = QApplication::applicationDirPath();
-  QString webAppRootDirPath = "/Users/serge/Projects/Personal/artem_samarov/webapp";
+  QString webAppRootDirPath = "/Users/serge/Projects/Personal/artem_samarov/qt_webkit_demo/webapp";
   QUrl url = QUrl::fromLocalFile(webAppRootDirPath + "/index.html");
 
   qDebug() << "URL:" << url;

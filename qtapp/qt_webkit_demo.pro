@@ -20,3 +20,9 @@ HEADERS  += MainWindow.h \
     Host.h
 
 FORMS    += MainWindow.ui
+
+RESOURCES += \
+    Resources.qrc
+
+DISTFILES += \
+    assets/js/test.js
