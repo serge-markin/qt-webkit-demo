@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.x-my-table {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+table.x-my-table th,
+table.x-my-table td {
+    border: 1px solid #333;
+    padding: 4px 20px;
+}
+
+
+table.x-my-table th {
+    background-color: #ddd;
+}
+
+table.x-my-table td {
+    cursor: pointer;
+}
+
+#x-my-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 1.5em;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
